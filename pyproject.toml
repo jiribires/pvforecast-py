@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvforecast"
+version = "0.1.0"
+description = "APython library for pvforecast.cz API"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    # List your dependencies here
+]
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
